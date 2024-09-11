@@ -1,0 +1,103 @@
+# 	1.	Nord0 (Polar Night) (black):
+# Hex: #2E3440
+# 256-color: #1C1C1C
+# Terminal color code: 235
+# 	2.	Nord1 (Polar Night) (darker-gray):
+# Hex: #3B4252
+# 256-color: #262626
+# Terminal color code: 236
+# 	3.	Nord2 (Polar Night) (dark-gray):
+# Hex: #434C5E
+# 256-color: #303030
+# Terminal color code: 237
+# 	4.	Nord3 (Polar Night) (gray):
+# Hex: #4C566A
+# 256-color: #444444
+# Terminal color code: 238
+# 	5.	Nord4 (Snow Storm) (light-gray):
+# Hex: #D8DEE9
+# 256-color: #D7D7D7
+# Terminal color code: 188
+# 	6.	Nord5 (Snow Storm) (lighter-gray):
+# Hex: #E5E9F0
+# 256-color: #EEEEEE
+# Terminal color code: 255
+# 	7.	Nord6 (Snow Storm) (white):
+# Hex: #ECEFF4
+# 256-color: #FFFFFF
+# Terminal color code: 15
+# 	8.	Nord7 (Frost) (frost-green):
+# Hex: #8FBCBB
+# 256-color: #87AFAF
+# Terminal color code: 152
+# 	9.	Nord8 (Frost) (arctic-blue):
+# Hex: #88C0D0
+# 256-color: #87CEFA
+# Terminal color code: 110
+# 	10.	Nord9 (Frost) (frost-blue):
+# Hex: #81A1C1
+# 256-color: #5F87AF
+# Terminal color code: 109
+# 	11.	Nord10 (Frost) (frost-gray):
+# Hex: #5E81AC
+# 256-color: #5F5F87
+# Terminal color code: 67
+# 	12.	Nord11 (Aurora) (red):
+# Hex: #BF616A
+# 256-color: #AF5F5F
+# Terminal color code: 167
+# 	13.	Nord12 (Aurora) (orange):
+# Hex: #D08770
+# 256-color: #D7875F
+# Terminal color code: 173
+# 	14.	Nord13 (Aurora) (yellow):
+# Hex: #EBCB8B
+# 256-color: #FFD787
+# Terminal color code: 222
+# 	15.	Nord14 (Aurora) (aurora-green):
+# Hex: #A3BE8C
+# 256-color: #AFD7AF
+# Terminal color code: 151
+# 	16.	Nord15 (Aurora) (purple):
+# Hex: #B48EAD
+# 256-color: #D7AFD7
+# Terminal color code: 182
+
+user: 182             # purple
+group: 110            # arctic-blue
+permission:
+  read: 222           # yellow
+  write: 173          # orange
+  exec: 167           # red
+  exec-sticky: 151    # green
+  no-access: 236      # dark-gray
+  octal: 110          # arctic-blue
+  acl: 109            # frost-blue
+  context: 188        # light-gray
+date:
+  hour-old: 146                     # comment 20% lighter
+  day-old: 103                      # comment
+  older: 60                         # current line
+size:
+  none: 238           # gray
+  small: 151          # aurora-green
+  medium: 109         # frost-blue
+  large: 167          # red
+inode:
+  valid: 188          # light-gray
+  invalid: 167        # red
+links:
+  valid: 110          # arctic-blue
+  invalid: 167        # red
+tree-edge: 152        # frost-green
+git-status:
+  default: 238        # gray
+  unmodified: 238     # gray
+  ignored: 238        # gray
+  new-in-index: 152   # frost-green
+  new-in-workdir: 109 # frost-blue
+  typechange: 151     # aurora-green
+  deleted: 167        # red
+  renamed: 109        # frost-blue
+  modified: 110       # arctic-blue
+  conflicted: 167     # red
